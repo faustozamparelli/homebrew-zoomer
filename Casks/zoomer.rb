@@ -12,10 +12,10 @@ cask "zoomer" do
 
   app "Zoomer.app"
 
+  zap trash: "~/Library/Preferences/com.faustozamparelli.zoomer.plist"
+
   caveats <<~EOS
     Zoomer is currently ad-hoc signed. If macOS blocks the first launch,
     open System Settings > Privacy & Security and choose Open Anyway.
   EOS
-
-  zap trash: "~/Library/Preferences/com.faustozamparelli.zoomer.plist"
 end

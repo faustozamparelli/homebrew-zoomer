@@ -5,7 +5,7 @@ cask "zoomer" do
   url "https://github.com/faustozamparelli/zoomer-releases/releases/download/v#{version}/Zoomer-macos-arm64.zip"
   name "Zoomer"
   desc "Capture, magnify, pan, and spotlight your screen"
-  homepage "https://github.com/faustozamparelli/zoomer"
+  homepage "https://zoomer.lakebed.app"
 
   depends_on arch: :arm64
   depends_on macos: :big_sur

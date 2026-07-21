@@ -1,6 +1,6 @@
 cask "zoomer" do
-  version "0.2.0"
-  sha256 "cb37a39b0dc8dd13ce6ed58e29b9c0c21d41d3d34fbe8f8380f0364245ee5c91"
+  version "0.2.1"
+  sha256 "11c315e16ff48a6952de2072ee229e2a06e2aa806a5912f84b9f8f94fcf976bd"
 
   url "https://github.com/faustozamparelli/zoomer-releases/releases/download/v#{version}/Zoomer-macos-arm64.zip"
   name "Zoomer"
